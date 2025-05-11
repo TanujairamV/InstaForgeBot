@@ -1,0 +1,32 @@
+proxy: "http://user:pass@proxy:port"
+headless: true
+create_account: false
+engagement:
+  like: true
+  hashtag: "insta"
+  like_amount: 10
+  comment: true
+  comment_amount: 5
+  comments:
+    - "Great post!"
+    - "Love this!"
+    - "Awesome content!"
+  follow: true
+  follow_amount: 10
+  unfollow: true
+  unfollow_limit: 5
+content:
+  view_stories: true
+  target_user: "instagram"
+  download_post: true
+  post_url: "https://www.instagram.com/p/xyz/"
+  schedule_post: false
+  image_path: "path/to/image.jpg"
+  caption: "My scheduled post!"
+  post_time: "14:00"
+analytics:
+  track_followers: true
+  scrape_profile: true
+  target_user: "instagram"
+games:
+  enabled: true
